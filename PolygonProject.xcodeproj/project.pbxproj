@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B628D1AC2002F7EC00C7FEAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B628D1AA2002F7EC00C7FEAD /* Main.storyboard */; };
+		B628D1AE2002F7EC00C7FEAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B628D1AD2002F7EC00C7FEAD /* Assets.xcassets */; };
+		B628D1B12002F7EC00C7FEAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B628D1AF2002F7EC00C7FEAD /* LaunchScreen.storyboard */; };
+		B628D1B42002F7EC00C7FEAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B628D1B32002F7EC00C7FEAD /* main.m */; };
+		B628D1C62002F97600C7FEAD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B628D1C52002F97600C7FEAD /* FirstViewController.m */; };
+		B628D1CA2002F99B00C7FEAD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B628D1C82002F99B00C7FEAD /* SecondViewController.m */; };
+		B628D1CF2002FAAE00C7FEAD /* NSError+Polygon.m in Sources */ = {isa = PBXBuildFile; fileRef = B628D1CE2002FAAE00C7FEAD /* NSError+Polygon.m */; };
+		B628D1D82002FC6B00C7FEAD /* SimpleRegularPolygonView.m in Sources */ = {isa = PBXBuildFile; fileRef = B628D1D62002FC6B00C7FEAD /* SimpleRegularPolygonView.m */; };
+		B628D1DC2002FC9100C7FEAD /* SimpleRegularPolygonViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B628D1DA2002FC9100C7FEAD /* SimpleRegularPolygonViewCell.m */; };
+		B628D1E02002FCB000C7FEAD /* UIColor+Polygon.m in Sources */ = {isa = PBXBuildFile; fileRef = B628D1DF2002FCB000C7FEAD /* UIColor+Polygon.m */; };
+		B628D1E92002FD0500C7FEAD /* PolygonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B628D1E62002FD0500C7FEAD /* PolygonViewController.xib */; };
+		B628D1EA2002FD0500C7FEAD /* PolygonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B628D1E72002FD0500C7FEAD /* PolygonViewController.m */; };
+		B628D1EF2002FD2300C7FEAD /* TileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B628D1EC2002FD2300C7FEAD /* TileViewController.m */; };
+		B628D1F02002FD2300C7FEAD /* TileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B628D1ED2002FD2300C7FEAD /* TileViewController.xib */; };
+		B628D1F52002FDCD00C7FEAD /* SimpleRegularPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = B628D1F42002FDCD00C7FEAD /* SimpleRegularPolygon.m */; };
+		B628D1FA2003003900C7FEAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B628D1F92003003900C7FEAD /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B628D19E2002F7EC00C7FEAD /* PolygonProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PolygonProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B628D1AB2002F7EC00C7FEAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B628D1AD2002F7EC00C7FEAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B628D1B02002F7EC00C7FEAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B628D1B22002F7EC00C7FEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B628D1B32002F7EC00C7FEAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B628D1C42002F97600C7FEAD /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = SRC/Controllers/FirstViewController/FirstViewController.h; sourceTree = "<group>"; };
+		B628D1C52002F97600C7FEAD /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = SRC/Controllers/FirstViewController/FirstViewController.m; sourceTree = "<group>"; };
+		B628D1C82002F99B00C7FEAD /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = SRC/Controllers/SecondViewController/SecondViewController.m; sourceTree = "<group>"; };
+		B628D1C92002F99B00C7FEAD /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = SRC/Controllers/SecondViewController/SecondViewController.h; sourceTree = "<group>"; };
+		B628D1CD2002FAAE00C7FEAD /* NSError+Polygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSError+Polygon.h"; path = "SRC/Categories/NSError+Polygon/NSError+Polygon.h"; sourceTree = "<group>"; };
+		B628D1CE2002FAAE00C7FEAD /* NSError+Polygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSError+Polygon.m"; path = "SRC/Categories/NSError+Polygon/NSError+Polygon.m"; sourceTree = "<group>"; };
+		B628D1D32002FC1C00C7FEAD /* PolygonPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PolygonPrefixHeader.pch; path = SRC/Others/PolygonPrefixHeader.pch; sourceTree = "<group>"; };
+		B628D1D62002FC6B00C7FEAD /* SimpleRegularPolygonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleRegularPolygonView.m; path = SRC/Views/SimpleRegularPolygonView/SimpleRegularPolygonView.m; sourceTree = "<group>"; };
+		B628D1D72002FC6B00C7FEAD /* SimpleRegularPolygonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleRegularPolygonView.h; path = SRC/Views/SimpleRegularPolygonView/SimpleRegularPolygonView.h; sourceTree = "<group>"; };
+		B628D1DA2002FC9100C7FEAD /* SimpleRegularPolygonViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleRegularPolygonViewCell.m; path = SRC/Views/SimpleRegularPolygonViewCell/SimpleRegularPolygonViewCell.m; sourceTree = "<group>"; };
+		B628D1DB2002FC9100C7FEAD /* SimpleRegularPolygonViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleRegularPolygonViewCell.h; path = SRC/Views/SimpleRegularPolygonViewCell/SimpleRegularPolygonViewCell.h; sourceTree = "<group>"; };
+		B628D1DE2002FCB000C7FEAD /* UIColor+Polygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Polygon.h"; path = "SRC/Categories/UIColor+Polygon/UIColor+Polygon.h"; sourceTree = "<group>"; };
+		B628D1DF2002FCB000C7FEAD /* UIColor+Polygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Polygon.m"; path = "SRC/Categories/UIColor+Polygon/UIColor+Polygon.m"; sourceTree = "<group>"; };
+		B628D1E62002FD0500C7FEAD /* PolygonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PolygonViewController.xib; path = SRC/Controllers/PolygonViewController/PolygonViewController.xib; sourceTree = "<group>"; };
+		B628D1E72002FD0500C7FEAD /* PolygonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PolygonViewController.m; path = SRC/Controllers/PolygonViewController/PolygonViewController.m; sourceTree = "<group>"; };
+		B628D1E82002FD0500C7FEAD /* PolygonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PolygonViewController.h; path = SRC/Controllers/PolygonViewController/PolygonViewController.h; sourceTree = "<group>"; };
+		B628D1EC2002FD2300C7FEAD /* TileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TileViewController.m; path = SRC/Controllers/TileViewController/TileViewController.m; sourceTree = "<group>"; };
+		B628D1ED2002FD2300C7FEAD /* TileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TileViewController.xib; path = SRC/Controllers/TileViewController/TileViewController.xib; sourceTree = "<group>"; };
+		B628D1EE2002FD2300C7FEAD /* TileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TileViewController.h; path = SRC/Controllers/TileViewController/TileViewController.h; sourceTree = "<group>"; };
+		B628D1F32002FDCD00C7FEAD /* SimpleRegularPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleRegularPolygon.h; path = SRC/Models/SimpleRegularPolygon/SimpleRegularPolygon.h; sourceTree = "<group>"; };
+		B628D1F42002FDCD00C7FEAD /* SimpleRegularPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleRegularPolygon.m; path = SRC/Models/SimpleRegularPolygon/SimpleRegularPolygon.m; sourceTree = "<group>"; };
+		B628D1F82003003900C7FEAD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SRC/Delegates/AppDelegate/AppDelegate.h; sourceTree = "<group>"; };
+		B628D1F92003003900C7FEAD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SRC/Delegates/AppDelegate/AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B628D19B2002F7EC00C7FEAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B628D1952002F7EC00C7FEAD = {
+			isa = PBXGroup;
+			children = (
+				B628D1A02002F7EC00C7FEAD /* PolygonProject */,
+				B628D19F2002F7EC00C7FEAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B628D19F2002F7EC00C7FEAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B628D19E2002F7EC00C7FEAD /* PolygonProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B628D1A02002F7EC00C7FEAD /* PolygonProject */ = {
+			isa = PBXGroup;
+			children = (
+				B628D1CC2002FA9600C7FEAD /* Categories */,
+				B628D1C32002F94100C7FEAD /* Controllers */,
+				B628D1F62003002200C7FEAD /* Delegates */,
+				B628D1F12002FDAD00C7FEAD /* Models */,
+				B628D1D22002FAD000C7FEAD /* Others */,
+				B628D1D42002FC5200C7FEAD /* Views */,
+				B628D1FB2003019900C7FEAD /* StoryBoard */,
+				B628D1AD2002F7EC00C7FEAD /* Assets.xcassets */,
+				B628D1B22002F7EC00C7FEAD /* Info.plist */,
+				B628D1FC200301BF00C7FEAD /* Supporting Files */,
+			);
+			path = PolygonProject;
+			sourceTree = "<group>";
+		};
+		B628D1C32002F94100C7FEAD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B628D1C72002F98000C7FEAD /* FirstViewController */,
+				B628D1E52002FCFC00C7FEAD /* PolygonViewController */,
+				B628D1CB2002F9A100C7FEAD /* SecondViewController */,
+				B628D1EB2002FD1100C7FEAD /* TileViewController */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B628D1C72002F98000C7FEAD /* FirstViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B628D1C42002F97600C7FEAD /* FirstViewController.h */,
+				B628D1C52002F97600C7FEAD /* FirstViewController.m */,
+			);
+			name = FirstViewController;
+			sourceTree = "<group>";
+		};
+		B628D1CB2002F9A100C7FEAD /* SecondViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B628D1C92002F99B00C7FEAD /* SecondViewController.h */,
+				B628D1C82002F99B00C7FEAD /* SecondViewController.m */,
+			);
+			name = SecondViewController;
+			sourceTree = "<group>";
+		};
+		B628D1CC2002FA9600C7FEAD /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B628D1D02002FABB00C7FEAD /* NSError+Polygon */,
+				B628D1DD2002FCA800C7FEAD /* UIColor+Polygon */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		B628D1D02002FABB00C7FEAD /* NSError+Polygon */ = {
+			isa = PBXGroup;
+			children = (
+				B628D1CD2002FAAE00C7FEAD /* NSError+Polygon.h */,
+				B628D1CE2002FAAE00C7FEAD /* NSError+Polygon.m */,
+			);
+			name = "NSError+Polygon";
+			sourceTree = "<group>";
+		};
+		B628D1D22002FAD000C7FEAD /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				B628D1D32002FC1C00C7FEAD /* PolygonPrefixHeader.pch */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		B628D1D42002FC5200C7FEAD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B628D1D52002FC6300C7FEAD /* SimpleRegularPolygonView */,
+				B628D1D92002FC8500C7FEAD /* SimpleRegularPolygonViewCell */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B628D1D52002FC6300C7FEAD /* SimpleRegularPolygonView */ = {
+			isa = PBXGroup;
+			children = (
+				B628D1D72002FC6B00C7FEAD /* SimpleRegularPolygonView.h */,
+				B628D1D62002FC6B00C7FEAD /* SimpleRegularPolygonView.m */,
+			);
+			name = SimpleRegularPolygonView;
+			sourceTree = "<group>";
+		};
+		B628D1D92002FC8500C7FEAD /* SimpleRegularPolygonViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B628D1DB2002FC9100C7FEAD /* SimpleRegularPolygonViewCell.h */,
+				B628D1DA2002FC9100C7FEAD /* SimpleRegularPolygonViewCell.m */,
+			);
+			name = SimpleRegularPolygonViewCell;
+			sourceTree = "<group>";
+		};
+		B628D1DD2002FCA800C7FEAD /* UIColor+Polygon */ = {
+			isa = PBXGroup;
+			children = (
+				B628D1DE2002FCB000C7FEAD /* UIColor+Polygon.h */,
+				B628D1DF2002FCB000C7FEAD /* UIColor+Polygon.m */,
+			);
+			name = "UIColor+Polygon";
+			sourceTree = "<group>";
+		};
+		B628D1E52002FCFC00C7FEAD /* PolygonViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B628D1E82002FD0500C7FEAD /* PolygonViewController.h */,
+				B628D1E72002FD0500C7FEAD /* PolygonViewController.m */,
+				B628D1E62002FD0500C7FEAD /* PolygonViewController.xib */,
+			);
+			name = PolygonViewController;
+			sourceTree = "<group>";
+		};
+		B628D1EB2002FD1100C7FEAD /* TileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B628D1EE2002FD2300C7FEAD /* TileViewController.h */,
+				B628D1EC2002FD2300C7FEAD /* TileViewController.m */,
+				B628D1ED2002FD2300C7FEAD /* TileViewController.xib */,
+			);
+			name = TileViewController;
+			sourceTree = "<group>";
+		};
+		B628D1F12002FDAD00C7FEAD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B628D1F22002FDB900C7FEAD /* SimpleRegularPolygon */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B628D1F22002FDB900C7FEAD /* SimpleRegularPolygon */ = {
+			isa = PBXGroup;
+			children = (
+				B628D1F32002FDCD00C7FEAD /* SimpleRegularPolygon.h */,
+				B628D1F42002FDCD00C7FEAD /* SimpleRegularPolygon.m */,
+			);
+			name = SimpleRegularPolygon;
+			sourceTree = "<group>";
+		};
+		B628D1F62003002200C7FEAD /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				B628D1F72003003000C7FEAD /* AppDelegate */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		B628D1F72003003000C7FEAD /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B628D1F82003003900C7FEAD /* AppDelegate.h */,
+				B628D1F92003003900C7FEAD /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B628D1FB2003019900C7FEAD /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				B628D1AF2002F7EC00C7FEAD /* LaunchScreen.storyboard */,
+				B628D1AA2002F7EC00C7FEAD /* Main.storyboard */,
+			);
+			name = StoryBoard;
+			sourceTree = "<group>";
+		};
+		B628D1FC200301BF00C7FEAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B628D1B32002F7EC00C7FEAD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B628D19D2002F7EC00C7FEAD /* PolygonProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B628D1B72002F7EC00C7FEAD /* Build configuration list for PBXNativeTarget "PolygonProject" */;
+			buildPhases = (
+				B628D19A2002F7EC00C7FEAD /* Sources */,
+				B628D19B2002F7EC00C7FEAD /* Frameworks */,
+				B628D19C2002F7EC00C7FEAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PolygonProject;
+			productName = PolygonProject;
+			productReference = B628D19E2002F7EC00C7FEAD /* PolygonProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B628D1962002F7EC00C7FEAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Qi Zhan";
+				TargetAttributes = {
+					B628D19D2002F7EC00C7FEAD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B628D1992002F7EC00C7FEAD /* Build configuration list for PBXProject "PolygonProject" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B628D1952002F7EC00C7FEAD;
+			productRefGroup = B628D19F2002F7EC00C7FEAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B628D19D2002F7EC00C7FEAD /* PolygonProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B628D19C2002F7EC00C7FEAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B628D1B12002F7EC00C7FEAD /* LaunchScreen.storyboard in Resources */,
+				B628D1E92002FD0500C7FEAD /* PolygonViewController.xib in Resources */,
+				B628D1AE2002F7EC00C7FEAD /* Assets.xcassets in Resources */,
+				B628D1F02002FD2300C7FEAD /* TileViewController.xib in Resources */,
+				B628D1AC2002F7EC00C7FEAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B628D19A2002F7EC00C7FEAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B628D1EF2002FD2300C7FEAD /* TileViewController.m in Sources */,
+				B628D1D82002FC6B00C7FEAD /* SimpleRegularPolygonView.m in Sources */,
+				B628D1EA2002FD0500C7FEAD /* PolygonViewController.m in Sources */,
+				B628D1DC2002FC9100C7FEAD /* SimpleRegularPolygonViewCell.m in Sources */,
+				B628D1CA2002F99B00C7FEAD /* SecondViewController.m in Sources */,
+				B628D1F52002FDCD00C7FEAD /* SimpleRegularPolygon.m in Sources */,
+				B628D1E02002FCB000C7FEAD /* UIColor+Polygon.m in Sources */,
+				B628D1FA2003003900C7FEAD /* AppDelegate.m in Sources */,
+				B628D1C62002F97600C7FEAD /* FirstViewController.m in Sources */,
+				B628D1B42002F7EC00C7FEAD /* main.m in Sources */,
+				B628D1CF2002FAAE00C7FEAD /* NSError+Polygon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B628D1AA2002F7EC00C7FEAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B628D1AB2002F7EC00C7FEAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B628D1AF2002F7EC00C7FEAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B628D1B02002F7EC00C7FEAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B628D1B52002F7EC00C7FEAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B628D1B62002F7EC00C7FEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B628D1B82002F7EC00C7FEAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PolygonProject/SRC/Others/PolygonPrefixHeader.pch";
+				INFOPLIST_FILE = PolygonProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qizhan.PolygonProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B628D1B92002F7EC00C7FEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PolygonProject/SRC/Others/PolygonPrefixHeader.pch";
+				INFOPLIST_FILE = PolygonProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qizhan.PolygonProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B628D1992002F7EC00C7FEAD /* Build configuration list for PBXProject "PolygonProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B628D1B52002F7EC00C7FEAD /* Debug */,
+				B628D1B62002F7EC00C7FEAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B628D1B72002F7EC00C7FEAD /* Build configuration list for PBXNativeTarget "PolygonProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B628D1B82002F7EC00C7FEAD /* Debug */,
+				B628D1B92002F7EC00C7FEAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B628D1962002F7EC00C7FEAD /* Project object */;
+}

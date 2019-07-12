@@ -1,0 +1,22 @@
+//
+//  PolygonPrefixHeader.h
+//  Polygon
+//
+//  Created by Qi Zhan on 1/5/18.
+//  Copyright © 2018 Qi Zhan. All rights reserved.
+//
+
+#ifndef PolygonPrefixHeader_h
+#define PolygonPrefixHeader_h
+
+
+// *************************************************************************************************
+// # MARK: Standard Global Imports
+
+
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+#import <UIKit/UIKit.h>
+
+
+#endif /* PolygonPrefixHeader_h */
